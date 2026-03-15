@@ -203,8 +203,11 @@ Metodología de Ataques de Diccionario
 
 ---
 
-## Autor
+#### 👨‍💻 Autor
 
-Fred Castillo  
-Estudiante de Tecnología en Seguridad Informática  
-Aspirante a Red Team
+**Fred Castillo**  
+*Estudiante de Tecnólogo en Seguridad Informática*  
+*Aspirante a Red Team | Seguridad Ofensiva*
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Fred%20Castillo-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/fredcastillo11/)
+[![GitHub](https://img.shields.io/badge/GitHub-fredcastillo-100000?style=for-the-badge&logo=github)](https://github.com/fredcastillo)
