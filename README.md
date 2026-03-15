@@ -127,7 +127,7 @@ Algunos de los temas explorados en estos laboratorios incluyen:
 ## 👨‍💻 Autor
 
 **Fred Castillo**  
-**Estudiante de Tecnología en Seguridad Informática**  
+**Estudiante de tecnologo en Seguridad Informática**  
 *Aspirante a Red Team | Seguridad Ofensiva*
 
 
