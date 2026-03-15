@@ -126,7 +126,7 @@ Some of the topics explored in these labs include:
 
 ## 👨‍💻 Author
 
-**Fred Castillo**  
+**Fred Castillo**
 **Information Security Technology Student**
 *Red Team Aspirant | Offensive Security*
 
