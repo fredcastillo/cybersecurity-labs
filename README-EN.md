@@ -129,6 +129,7 @@ Some of the topics explored in these labs include:
 **Fred Castillo**
 **Information Security Technology Student**
 
+
 *Red Team Aspirant | Offensive Security*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Fred%20Castillo-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/fredcastillo11/)
