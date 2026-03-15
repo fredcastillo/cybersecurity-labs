@@ -8,7 +8,7 @@
 ![Plataforma](https://img.shields.io/badge/Platform-Linux-black)
 ![Estado](https://img.shields.io/badge/Status-Active-yellow)
 
-## 📖 Descripción
+## Descripción
 
 Este repositorio contiene una colección de **laboratorios prácticos de ciberseguridad** enfocados en seguridad ofensiva, seguridad inalámbrica y ataques basados en hardware.
 
@@ -98,7 +98,7 @@ Cada carpeta de laboratorio contiene:
 
 ---
 
-## 🎯 Objetivos de Aprendizaje
+## Objetivos de Aprendizaje
 
 Los principales objetivos de estos laboratorios incluyen:
 
@@ -110,7 +110,7 @@ Los principales objetivos de estos laboratorios incluyen:
 
 ---
 
-## 📚 Temas Cubiertos
+## Temas Cubiertos
 
 Algunos de los temas explorados en estos laboratorios incluyen:
 
