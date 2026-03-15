@@ -6,7 +6,7 @@
 ![Platform](https://img.shields.io/badge/Platform-Linux-black)
 ![Status](https://img.shields.io/badge/Status-Active-yellow)
 
-## 📖 Overview
+## Overview
 
 This repository contains a collection of **hands-on cybersecurity laboratories** focused on offensive security, wireless security, and hardware-based attacks.
 
@@ -96,7 +96,7 @@ Each lab folder contains:
 
 ---
 
-## 🎯 Learning Goals
+## Learning Goals
 
 The main goals of these labs include:
 
@@ -108,7 +108,7 @@ The main goals of these labs include:
 
 ---
 
-## 📚 Topics Covered
+## Topics Covered
 
 Some of the topics explored in these labs include:
 
