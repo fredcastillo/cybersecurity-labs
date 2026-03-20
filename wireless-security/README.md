@@ -184,7 +184,7 @@ sudo fern-wifi-cracker
 Aquí puedes ver la demostración completa del proceso:
 
 <p align="center">
-  <a href="https://studio.youtube.com/video/WMOPhl1d1MY">
+  <a href="https://www.youtube.com/watch?v=WMOPhl1d1MY">
     <img src="https://img.youtube.com/vi/WMOPhl1d1MY/maxresdefault.jpg" width="800"/>
   </a>
 </p>
