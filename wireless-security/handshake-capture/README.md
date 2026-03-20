@@ -71,7 +71,7 @@ Capacidades:
 
 ---
 
-## 🎯 Red Objetivo
+## Red Objetivo
 
 SSID: HACKEAME  
 Cifrado: WPA2-PSK  
@@ -161,13 +161,13 @@ sudo fern-wifi-cracker
 
 ## 📸 Capturas de Pantalla
 
-### 🔍 Escaneo de Red
+### Escaneo de Red
 
 ![Network Scan](screenshots/network-scan.png)
 
 ---
 
-### ⚡ Proceso de Ataque
+### Proceso de Ataque
 
 ![Attack Process](screenshots/attack-process.png)
 
@@ -220,7 +220,7 @@ Para evitar este tipo de ataques en redes reales:
 
 ---
 
-## 📚 Lecciones Aprendidas
+## Lecciones Aprendidas
 
 - La seguridad WPA2 depende en gran medida de la fortaleza de la contraseña
 - Contraseñas débiles son vulnerables a ataques de diccionario
@@ -229,7 +229,7 @@ Para evitar este tipo de ataques en redes reales:
 
 ---
 
-## 🧠 Habilidades Demostradas
+## Habilidades Demostradas
 
 Pruebas de Seguridad Inalámbrica  
 Análisis de Autenticación WPA/WPA2  
