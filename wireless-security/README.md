@@ -11,7 +11,7 @@
 
 ---
 
-## Descripción
+## 📖 Descripción
 
 Este laboratorio demuestra cómo se puede **capturar el handshake WPA2 de una red inalámbrica** y posteriormente utilizarlo para realizar un **ataque de diccionario** con el objetivo de recuperar la contraseña de la red.
 
@@ -38,10 +38,25 @@ El acceso no autorizado a redes inalámbricas puede ser ilegal y podría tener *
 
 ---
 
-## Entorno del Laboratorio
+## 🧠 Flujo del Ataque
+
+```
+Cliente se conecta al Access Point
+          ↓
+Se genera el WPA2 Handshake
+          ↓
+El atacante captura el handshake
+          ↓
+Se ejecuta ataque de diccionario
+          ↓
+Se descubre la contraseña
+```
+
+---
+
+## 🧪 Entorno del Laboratorio
 
 ### Sistema Operativo
-
 Kali Linux
 
 ### Adaptador Inalámbrico
@@ -56,9 +71,7 @@ Capacidades:
 
 ---
 
-## Red Objetivo
-
-Configuración de la red utilizada en el laboratorio:
+## 🎯 Red Objetivo
 
 SSID: HACKEAME  
 Cifrado: WPA2-PSK  
@@ -66,7 +79,7 @@ Contraseña: admin123
 
 ---
 
-## Herramientas Utilizadas
+## 🛠 Herramientas Utilizadas
 
 - Aircrack-ng
 - Airodump-ng
@@ -76,7 +89,7 @@ Contraseña: admin123
 
 ---
 
-## Metodología del Ataque
+## ⚡ Metodología del Ataque
 
 ### 1 — Verificar el adaptador inalámbrico
 
@@ -128,8 +141,6 @@ Campo importante:
 ENC → WPA2
 ```
 
-Esto confirma que la red utiliza cifrado WPA2.
-
 ---
 
 ### 6 — Probar inyección de paquetes
@@ -146,18 +157,43 @@ sudo aireplay-ng --test wlan0mon
 sudo fern-wifi-cracker
 ```
 
-Pasos dentro de la herramienta:
+---
 
-1. Escanear redes disponibles
-2. Seleccionar la red objetivo
-3. Capturar el handshake WPA2
-4. Ejecutar ataque de diccionario
+## 📸 Capturas de Pantalla
+
+### 🔍 Escaneo de Red
+
+![Network Scan](screenshots/network-scan.png)
+
+---
+
+### ⚡ Proceso de Ataque
+
+![Attack Process](screenshots/attack-process.png)
+
+---
+
+### 🔑 Contraseña Recuperada
+
+![Password Cracked](screenshots/password-cracked.png)
+
+---
+
+## 🎥 Video del Laboratorio
+
+Aquí puedes ver la demostración completa del proceso:
+
+📌 https://www.youtube.com/watch?v=WMOPhl1d1MY&t=111s
+
+```
+https://youtube.com/tu-video-aqui
+```
 
 ---
 
 ## Resultado
 
-El ataque de diccionario logró recuperar la contraseña:
+✅ El ataque de diccionario logró recuperar la contraseña:
 
 ```
 admin123
@@ -170,40 +206,38 @@ Esto confirma que:
 
 ---
 
-## Capturas de Pantalla
+## 🔐 Cómo Protegerse de Este Ataque
 
-Evidencia incluida en el repositorio:
+Para evitar este tipo de ataques en redes reales:
 
-- Escaneo de redes
-- Verificación WPA2
-- Captura del handshake
-- Proceso del ataque de diccionario
-- Descubrimiento de la contraseña
+- Usar contraseñas largas (12+ caracteres)
+- Evitar contraseñas comunes o de diccionario
+- Desactivar WPS en el router
+- Utilizar WPA3 si está disponible
+- Monitorear dispositivos conectados regularmente
 
 ---
 
-## Lecciones Aprendidas
-
-Puntos clave de este laboratorio:
+## 📚 Lecciones Aprendidas
 
 - La seguridad WPA2 depende en gran medida de la fortaleza de la contraseña
 - Contraseñas débiles son vulnerables a ataques de diccionario
 - Capturar el handshake no revela la contraseña directamente
-- Los ataques se realizan posteriormente de forma offline
+- Los ataques se realizan de forma offline
 
 ---
 
-## Habilidades Demostradas
+## 🧠 Habilidades Demostradas
 
 Pruebas de Seguridad Inalámbrica  
 Análisis de Autenticación WPA/WPA2  
 Uso de Herramientas de Red en Linux  
 Pruebas de Inyección de Paquetes  
-Metodología de Ataques de Diccionario
+Metodología de Ataques de Diccionario  
 
 ---
 
-#### 👨‍💻 Autor
+## 👨‍💻 Autor
 
 **Fred Castillo**  
 *Estudiante de Tecnólogo en Seguridad Informática*  
