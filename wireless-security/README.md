@@ -183,9 +183,15 @@ sudo fern-wifi-cracker
 
 Aquí puedes ver la demostración completa del proceso:
 
-```
-https://youtube.com/watch?v=WMOPhl1d1MY&t=111s](https://www.youtube.com/watch?v=WMOPhl1d1MY)](https://www.youtube.com/watch?v=WMOPhl1d1MY
-```
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=WMOPhl1d1MY">
+    <img src="https://img.youtube.com/vi/WMOPhl1d1MY/maxresdefault.jpg" width="800"/>
+  </a>
+</p>
+
+<p align="center">
+  <b>Demostración completa del ataque WPA2 Handshake</b>
+</p>
 
 ---
 
