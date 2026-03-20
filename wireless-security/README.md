@@ -183,10 +183,8 @@ sudo fern-wifi-cracker
 
 Aquí puedes ver la demostración completa del proceso:
 
-📌 https://www.youtube.com/watch?v=WMOPhl1d1MY&t=111s
-
 ```
-https://youtube.com/tu-video-aqui
+[https://youtube.com/watch?v=WMOPhl1d1MY&t=111s]
 ```
 
 ---
