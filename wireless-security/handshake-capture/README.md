@@ -189,7 +189,7 @@ sudo fern-wifi-cracker
 
 <p align="center">
   <b>Demostración completa del ataque WPA2 Handshake</b>
-</p>>
+</p>
 
 ---
 
