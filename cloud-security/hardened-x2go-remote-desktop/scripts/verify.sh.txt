@@ -1,0 +1,102 @@
+#!/bin/bash
+
+# ==========================================
+# hardened-x2go-remote-desktop | verify.sh
+# ==========================================
+# Description:
+# Verifies system configuration after setup
+# and hardening (SSH, UFW, Fail2Ban, X2Go)
+# ==========================================
+
+echo "[+] Starting system verification..."
+echo
+
+# ==========================================
+# CHECK SERVICES
+# ==========================================
+
+echo "[+] Checking services status..."
+
+services=("ssh" "x2goserver" "fail2ban")
+
+for service in "${services[@]}"; do
+    if systemctl is-active --quiet $service; then
+        echo "[✔] $service is running"
+    else
+        echo "[✖] $service is NOT running"
+    fi
+done
+
+echo
+
+# ==========================================
+# CHECK SSH CONFIG
+# ==========================================
+
+echo "[+] Checking SSH configuration..."
+
+SSH_CONFIG="/etc/ssh/sshd_config"
+
+grep -q "^PermitRootLogin no" $SSH_CONFIG && echo "[✔] Root login disabled" || echo "[✖] Root login NOT disabled"
+grep -q "^PasswordAuthentication no" $SSH_CONFIG && echo "[✔] Password authentication disabled" || echo "[✖] Password authentication still enabled"
+grep -q "^Port 2222" $SSH_CONFIG && echo "[✔] SSH running on port 2222" || echo "[✖] SSH port NOT configured"
+
+echo
+
+# ==========================================
+# CHECK OPEN PORTS
+# ==========================================
+
+echo "[+] Checking open ports..."
+
+ss -tuln | grep -E ":22|:2222"
+
+echo
+
+# ==========================================
+# CHECK FIREWALL
+# ==========================================
+
+echo "[+] Checking UFW status..."
+
+sudo ufw status | grep -q "Status: active" && echo "[✔] UFW is active" || echo "[✖] UFW is NOT active"
+
+sudo ufw status numbered
+
+echo
+
+# ==========================================
+# CHECK FAIL2BAN
+# ==========================================
+
+echo "[+] Checking Fail2Ban status..."
+
+if systemctl is-active --quiet fail2ban; then
+    echo "[✔] Fail2Ban is running"
+    sudo fail2ban-client status sshd
+else
+    echo "[✖] Fail2Ban is NOT running"
+fi
+
+echo
+
+# ==========================================
+# CHECK X2GO SESSION FILE
+# ==========================================
+
+echo "[+] Checking XFCE session configuration..."
+
+if [ -f /home/*/.xsession ]; then
+    echo "[✔] XFCE session file exists"
+else
+    echo "[✖] XFCE session file NOT found"
+fi
+
+echo
+
+# ==========================================
+# FINAL SUMMARY
+# ==========================================
+
+echo "[+] Verification completed!"
+echo "[!] Review any [✖] warnings above."

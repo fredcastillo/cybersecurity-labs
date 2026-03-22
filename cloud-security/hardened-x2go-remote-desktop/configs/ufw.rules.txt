@@ -1,0 +1,8 @@
+# UFW Rules Summary
+
+Default: deny incoming
+Default: allow outgoing
+
+Allowed Ports:
+22/tcp   # X2Go
+2222/tcp # SSH Hardened

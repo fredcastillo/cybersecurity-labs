@@ -1,0 +1,20 @@
+# ==========================================
+# SSH Hardening Configuration
+# ==========================================
+
+Port 2222
+
+PermitRootLogin no
+PasswordAuthentication no
+PermitEmptyPasswords no
+
+PubkeyAuthentication yes
+
+MaxAuthTries 3
+MaxSessions 2
+
+X11Forwarding no
+AllowTcpForwarding yes
+
+ClientAliveInterval 300
+ClientAliveCountMax 2
