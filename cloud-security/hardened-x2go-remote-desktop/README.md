@@ -13,10 +13,10 @@
 
 ## Quick Demo
 
-✔ Secure SSH access (key-based authentication)  
-✔ Remote desktop via X2Go (XFCE)  
-✔ Hardened Linux server  
-✔ Firewall (UFW) + Intrusion prevention (Fail2Ban)  
+Secure SSH access (key-based authentication)  
+Remote desktop via X2Go (XFCE)  
+Hardened Linux server  
+Firewall (UFW) + Intrusion prevention (Fail2Ban)  
 
 ---
 
@@ -38,7 +38,7 @@ El enfoque principal no fue solo instalar servicios, sino construir un sistema r
 
 ---
 
-## 👤 Competencias Demostradas
+## Competencias Demostradas
 
 - Linux system administration  
 - Secure remote access (SSH)  
