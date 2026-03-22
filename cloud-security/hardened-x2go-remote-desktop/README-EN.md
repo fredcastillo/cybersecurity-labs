@@ -11,7 +11,7 @@
 
 ---
 
-## 🚀 Quick Demo
+## Quick Demo
 
 ✔ Secure SSH access (key-based authentication)  
 ✔ Remote desktop via X2Go (XFCE)  
@@ -28,7 +28,7 @@ The main focus was not just installing services, but building a **functional, se
 
 ---
 
-## 🎯 Project Objectives
+## Project Objectives
 
 - Deploy an Ubuntu server in the cloud  
 - Configure secure remote access (SSH + X2Go)  
@@ -84,11 +84,11 @@ Internet
 - UFW firewall configured  
 - Brute-force protection with Fail2Ban  
 
-📂 Full configuration available in `/docs`
+Full configuration available in `/docs`
 
 ---
 
-## 🚨 Troubleshooting (Summary)
+## Troubleshooting (Summary)
 
 | Issue | Solution |
 |------|--------|
@@ -96,7 +96,7 @@ Internet
 | SSH denied | Properly configure SSH keys |
 | Fail2Ban not blocking | Adjust ports in `jail.local` |
 
-📂 Full guide in `/docs/troubleshooting.md`
+Full guide in `/docs/troubleshooting.md`
 
 ---
 
@@ -113,7 +113,7 @@ hardened-x2go-remote-desktop/
 
 ---
 
-## 📊 Conclusion
+## Conclusion
 
 This project demonstrates that deploying cloud services requires more than installation—it requires applying security controls from the beginning.
 
@@ -121,7 +121,7 @@ Real-world hardening practices were implemented to reduce the attack surface and
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 - Automation with Bash / Ansible  
 - SIEM integration  
