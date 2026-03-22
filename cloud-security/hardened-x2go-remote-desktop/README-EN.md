@@ -13,10 +13,10 @@
 
 ## Quick Demo
 
-✔ Secure SSH access (key-based authentication)  
-✔ Remote desktop via X2Go (XFCE)  
-✔ Hardened Linux server  
-✔ Firewall (UFW) + Intrusion prevention (Fail2Ban)  
+Secure SSH access (key-based authentication)  
+Remote desktop via X2Go (XFCE)  
+Hardened Linux server  
+Firewall (UFW) + Intrusion prevention (Fail2Ban)  
 
 ---
 
@@ -38,7 +38,7 @@ The main focus was not just installing services, but building a **functional, se
 
 ---
 
-## 👤 Skills Demonstrated
+## Skills Demonstrated
 
 - Linux system administration  
 - Secure remote access (SSH)  
@@ -49,7 +49,7 @@ The main focus was not just installing services, but building a **functional, se
 
 ---
 
-## 🧠 System Architecture
+## System Architecture
 
 [ Client (PC) ]
 ↓
@@ -76,7 +76,7 @@ Internet
 
 ---
 
-## 🔐 Security Hardening (Summary)
+## Security Hardening (Summary)
 
 - Root login disabled  
 - SSH key-based authentication  
