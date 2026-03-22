@@ -101,7 +101,7 @@ Full guide in `/docs/troubleshooting.md`
 ---
 
 ## 📂 Project Structure
-
+```
 hardened-x2go-remote-desktop/
 ├── README.md
 ├── README-EN.md
@@ -109,7 +109,7 @@ hardened-x2go-remote-desktop/
 ├── configs/
 ├── screenshots/
 └── docs/
-
+```
 
 ---
 
