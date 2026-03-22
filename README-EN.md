@@ -60,9 +60,21 @@ Folder:
 hardware-attacks/
 ```
 
+### ☁️ Cloud Security 
+
+| Laboratorio | Descripción |
+|----|----|
+| Hardened Linux Server with X2Go | Linux hardening and secure remote access using X2Go |
+
+Carpeta:
+
+```
+cloud-security/
+```
+
 ---
 
-## 🛠 Tools Used
+## Tools Used
 
 Across these labs, several security tools and platforms are used:
 
