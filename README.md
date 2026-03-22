@@ -60,6 +60,19 @@ Carpeta:
 hardware-attacks/
 ```
 
+### ☁️ Seguridad de nube
+
+| Laboratorio | Descripción |
+|----|----|
+| Hardened Linux Server with X2Go | Hardening de Linux y acceso remoto seguro con X2Go |
+
+Carpeta:
+
+```
+cloud-security/
+```
+
+
 ---
 
 ## 🛠 Herramientas Utilizadas
