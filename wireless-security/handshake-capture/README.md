@@ -1,6 +1,6 @@
 🇪🇸 **Español** | 🇬🇧 [English](README-EN.md)
 
-# 📡 Captura de Handshake WPA2 – Laboratorio de Seguridad Inalámbrica
+# 📡 Captura de Handshake WPA2 – Seguridad Inalámbrica
 
 ![Campo](https://img.shields.io/badge/Field-Wireless%20Security-blue)
 ![Cifrado](https://img.shields.io/badge/Encryption-WPA2-orange)
