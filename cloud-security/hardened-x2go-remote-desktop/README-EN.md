@@ -50,7 +50,7 @@ The main focus was not just installing services, but building a **functional, se
 ---
 
 ## System Architecture
-
+``
 [ Client (PC) ]
 ↓
 Internet
@@ -62,7 +62,7 @@ Internet
 [ X2Go Server (22) ]
 ↓
 [ XFCE Desktop ]
-
+``
 
 ---
 
