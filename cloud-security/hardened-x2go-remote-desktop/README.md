@@ -67,7 +67,7 @@ Internet
 ## 🖥️ Evidencia
 
 ### 🔹 Conexión X2Go
-![X2Go](screenshots/x2go-connected.png)
+![X2Go](screenshots/x2go-connecting.png)
 
 ### 🔹 Escritorio remoto
 ![Desktop](screenshots/desktop.png)
