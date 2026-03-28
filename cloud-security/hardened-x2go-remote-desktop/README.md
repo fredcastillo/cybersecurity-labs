@@ -5,7 +5,6 @@
 ![Linux](https://img.shields.io/badge/Linux-Ubuntu%2022.04-E95420?style=for-the-badge&logo=ubuntu)
 ![X2Go](https://img.shields.io/badge/Remote%20Access-X2Go-0088cc?style=for-the-badge)
 ![Security](https://img.shields.io/badge/Security-Hardening-ff0000?style=for-the-badge)
-![SSH](https://img.shields.io/badge/Protocol-SSH-000000?style=for-the-badge)
 ![Firewall](https://img.shields.io/badge/Firewall-UFW-87cefa?style=for-the-badge)
 ![Fail2Ban](https://img.shields.io/badge/Intrusion%20Prevention-Fail2Ban-ffcc00?style=for-the-badge)
 
