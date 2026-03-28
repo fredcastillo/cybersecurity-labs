@@ -49,6 +49,7 @@ El enfoque principal no fue solo instalar servicios, sino construir un sistema r
 ---
 
 ## Arquitectura del Sistema
+```
 [ Client (PC) ]
 ↓
 Internet
@@ -60,6 +61,7 @@ Internet
 [ X2Go Server (22) ]
 ↓
 [ XFCE Desktop ]
+```
 
 ---
 
